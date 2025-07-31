@@ -4,6 +4,8 @@ red="\e[0;31m"
 green="\e[0;32m"
 off="\e[0m"
 
+
+
 function banner() {
 clear
 echo "  _____ _     _____ _                           _";
@@ -19,6 +21,7 @@ echo "  | |  | | | \__ \ || (_| | | |  __/ |   ";
 echo " |___| |_| |_|___/\__\__,_|_|_|\___|_|   ";
 echo "                                         ";
 }
+
 
 function termux() {
   echo -e "$red [$green+$red]$off Installing Perl ...";
